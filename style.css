@@ -1,0 +1,315 @@
+body{
+   background-image: url("https://media.istockphoto.com/id/1180583069/vector/stopwatch-icon-futuristic-digital-abstract-blue-background.jpg?s=170667a&w=0&k=20&c=fKlc3Q377BaMVYzHuFsOtwoF6ZxBIj2pYhYhvjsXdCI=");
+   background-repeat: no-repeat; 
+   background-size: cover;
+} 
+
+.mainDiv{
+    
+    /* background-color:white ; */
+     width: 40%;
+    /* min-width: 500px;  */
+    position: absolute;
+    /* transform: translate(-50%,-50%); */
+    top: 10%;
+left: 40%;
+}
+
+.startbtn{
+width: 32%;
+background-color: yellow;
+font-size: larger;
+font-style: italic;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-weight: bold;
+border-bottom: 3px solid gray ;
+border-top: 3px solid gray;
+border-left: 3px solid gray;
+border-right: 5px solid gray;
+border-top-right-radius:10px ;
+border-top-left-radius:10px ;
+border-bottom-right-radius:10px ;
+border-bottom-left-radius:10px ;
+cursor: pointer;
+
+}
+
+.resetbtn{
+    width: 32%;
+    background-color: yellow;
+    font-size: larger;
+    font-style: italic;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    border-bottom: 3px solid gray ;
+    border-top: 3px solid gray;
+    border-left: 3px solid gray;
+    border-right: 5px solid gray;
+    border-top-right-radius:10px ;
+    border-top-left-radius:10px ;
+    border-bottom-right-radius:10px ;
+    border-bottom-left-radius:10px ;
+    cursor: pointer;
+
+
+}
+.stopbtn{
+    width: 32%;
+    background-color: yellow;
+    font-size: larger;
+    font-style: italic;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    border-bottom: 3px solid gray ;
+    border-top: 3px solid gray;
+    border-left: 3px solid gray;
+    border-right: 5px solid gray;
+    border-top-right-radius:10px ;
+    border-top-left-radius:10px ;
+    border-bottom-right-radius:10px ;
+    border-bottom-left-radius:10px ;
+    cursor: pointer;
+
+
+}
+.stopbtn:hover{
+    color: darkgreen;
+    box-shadow:0px 0px 20px  black;
+
+}
+.heading{
+    color: white;
+    font-style: italic;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.resetbtn:hover{
+    color: darkgreen;
+    box-shadow:0px 0px 20px  black;
+
+
+}
+.startbtn:hover{
+    color: darkgreen;
+    box-shadow:0px 0px 20px  black;
+
+}
+.buttons{
+    width: 100%;
+    position: absolute;
+    top: 40px;
+    right: 70px;
+}
+
+.hour{
+    color: black;
+    width: 50px;
+ margin-left: -25px;
+}
+.minu{
+    color: black;
+    width: 50px;
+
+}
+.secnd{
+    color: black;
+    width: 50px;
+
+}
+.msecnd{
+    color: black;
+    width: 50px;
+
+}
+
+
+.heading.hour{
+    background-color: blue;
+    color: whitesmoke;
+cursor:text;
+}
+
+
+.heading.minu{
+    background-color: blue;
+    color: whitesmoke;
+cursor:text;
+
+}
+
+.heading.secnd{
+    background-color: blue;
+    color: whitesmoke;
+cursor:text;
+}
+
+
+
+
+
+.heading.msecnd{
+    background-color: blue;
+    color: whitesmoke;
+cursor:text;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.countdown{
+    width: 50%;
+    color: white;
+    font-size: 30px;
+    font-style: italic;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: absolute;
+    top: 55%;
+    left: 40%
+    
+}
+
+
+    
+.minutesButton1:hover{
+    color: whitesmoke;
+    background-color: darkslategrey;
+    box-shadow:0px 0px 20px  yellow;
+}
+
+.minutesButton1{
+    
+    width: 30%;
+    background-color: yellow;
+    font-size: 15px;
+    font-style: italic;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    border-bottom: 3px solid gray ;
+    border-top: 3px solid gray;
+    border-left: 3px solid gray;
+    border-right: 5px solid gray;
+    border-top-right-radius:10px ;
+    border-top-left-radius:10px ;
+    border-bottom-right-radius:10px ;
+    border-bottom-left-radius:10px ;
+    cursor: pointer;
+    }    
+
+
+.minutesButton10:hover{
+    color: whitesmoke;
+    background-color: darkslategrey;
+    box-shadow:0px 0px 20px  yellow;
+
+
+}
+.minutesButton10{
+    width: 30%;
+    background-color: yellow;
+    font-size: 15px;
+    font-style: italic;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    border-bottom: 3px solid gray ;
+    border-top: 3px solid gray;
+    border-left: 3px solid gray;
+    border-right: 5px solid gray;
+    border-top-right-radius:10px ;
+    border-top-left-radius:10px ;
+    border-bottom-right-radius:10px ;
+    border-bottom-left-radius:10px ;
+    cursor: pointer;
+}
+  
+
+.hoursButton:hover{
+    color: whitesmoke;
+    background-color: darkslategrey;
+    box-shadow:0px 0px 20px  yellow;
+
+
+}    
+.hoursButton{
+    
+    width: 30%;
+    background-color: yellow;
+    font-size: 15px;
+    font-style: italic;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    border-bottom: 3px solid gray ;
+    border-top: 3px solid gray;
+    border-left: 3px solid gray;
+    border-right: 5px solid gray;
+    border-top-right-radius:10px ;
+    border-top-left-radius:10px ;
+    border-bottom-right-radius:10px ;
+    border-bottom-left-radius:10px ;
+    cursor: pointer;
+    }
+    
+
+
+
+
+.reset:hover{
+        background-color: red;
+        color: black;
+    box-shadow:0px 0px 20px  yellow;
+
+    
+    }
+.reset{
+width: 35%;
+background-color: yellow;
+font-size: 15px;
+font-style: italic;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-weight: bold;
+border-bottom: 3px solid gray ;
+border-top: 3px solid gray;
+border-left: 3px solid gray;
+border-right: 5px solid gray;
+border-top-right-radius:10px ;
+border-top-left-radius:10px ;
+border-bottom-right-radius:10px ;
+border-bottom-left-radius:10px ;
+cursor: pointer;
+margin-top: 2%;
+margin-left:28% ;
+}
+.btnDiv{
+    width: 50%;
+    position: absolute;
+    top: 70%;
+    left: 30%;
+   
+}
+
+
+
+.Mainheading{
+    width: 50%;
+    position: fixed;
+    top: 35%;
+    left: 37%;
+color: yellowgreen;
+}
+.firsthdiv{
+    width: 50%;
+
+    position: absolute;
+    top: -5%;
+    left: 43%;
+color: yellowgreen;
+}
